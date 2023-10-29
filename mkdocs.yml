@@ -32,22 +32,22 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true 
-  - codehilite:
-      guess_lang: true
-      linenums: false
-  - toc:
-      permalink: true
+  # - codehilite:
+      # guess_lang: true
+      # linenums: false
+  # - toc:
+      # permalink: true
   - footnotes
-  - meta
+  # - meta
   - def_list
   - pymdownx.arithmatex
   - pymdownx.betterem:
       smart_enable: all
   - pymdownx.caret
   - pymdownx.critic
-  - pymdownx.emoji:
-      emoji_index: !!python/name:materialx.emoji.twemoji
-      emoji_generator: !!python/name:materialx.emoji.to_svg
+  # - pymdownx.emoji:
+      # emoji_index: !!python/name:materialx.emoji.twemoji
+      # emoji_generator: !!python/name:materialx.emoji.to_svg
       # emoji_generator: !!python/name:pymdownx.emoji.to_png
       # emoji_generator: !!python/name:pymdownx.emoji.to_svg
       # emoji_generator: !!python/name:pymdownx.emoji.to_png_sprite
@@ -103,10 +103,10 @@ extra_javascript:
   - js/jquery.media.js
 
 nav:
-  # - 一. 介绍: index.md
-  # - 二. 幻灯片: beamer.md
+  - 一. 介绍: index.md
+  - 二. 幻灯片: beamer.md
   - 数学: 数学/第13届数学竞赛.md
-  # - 专业课: 专业课
+  - 专业课: 专业课
   - 政治:
     - 史纲: 政治/史纲.md
     - 毛中特: 政治/毛中特.md
